@@ -1,4 +1,17 @@
 # NestJS 환경 설정
+```
+# Nest.js 설치
+$> npm i -g @nestjs/cli
+
+# Nest.js 프로젝트 생성
+$> nest new swagger-study
+```
+
+Nest.js 프로젝트 생성을 완료 했으면 swagger를 사용하기 위해 dependency 를 설치해준다.
+```
+$> npm install --save @nestjs/swagger swagger-ui-express
+```
+
 
 ```
 nest g module boards
